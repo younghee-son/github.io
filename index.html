@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Younghee Son | Economist</title>
-<meta name="description" content="Younghee Son — PhD candidate in Economics at Michigan State University. Applied microeconomics, focusing on health economics and labor economics">
+<meta name="description" content="Younghee Son — PhD candidate in Economics at Michigan State University. Applied microeconomics, health economics, and labor economics.">
 <style>
   :root { --ink:#1a1a1a; --muted:#666; --link:#0b5394; --rule:#e4e4e4; --chip:#f4f5f7; }
   * { box-sizing:border-box; }
@@ -28,10 +28,12 @@
   .paper { margin-bottom:1.6rem; }
   .paper .title { font-weight:600; }
   .paper .meta { color:var(--muted); font-size:.94rem; }
-  .paper .sowhat { margin:.4rem 0 0; }
+  .paper .sowhat { margin:.5rem 0 0; }
   .paper p { margin:.4rem 0 0; }
+  details { margin-top:.6rem; }
   details summary { cursor:pointer; color:var(--link); font-size:.94rem; }
-  .skills { display:flex; flex-wrap:wrap; gap:.4rem; padding:0; margin:0 0 .8rem; list-style:none; }
+  details p { margin:.7rem 0 0; }
+  .skills { display:flex; flex-wrap:wrap; gap:.4rem; padding:0; margin:.2rem 0 .8rem; list-style:none; }
   .skills li { background:var(--chip); border-radius:3px; padding:.22rem .6rem; font-size:.88rem; }
   .skillrow { margin:0 0 .55rem; font-size:.95rem; }
   .skillrow b { font-weight:600; }
@@ -47,21 +49,21 @@
   <div>
     <h1>Younghee Son</h1>
     <p class="tagline">
-      PhD Candidate in Economics, Michigan State University <br>
-      Applied microeconomics &middot; Health Economics &middot; Labor Economics    </p>
+      PhD Candidate in Economics, Michigan State University<br>
+      Applied microeconomics &middot; Health economics &middot; Labor economics
+    </p>
     <p class="contact">
-      <a href="mailto:sonyoun7@msu.edu">Email</a> &nbsp;·&nbsp;
+      <a href="mailto:sonyoun7@msu.edu">sonyoun7@msu.edu</a> &nbsp;·&nbsp;
       <a href="cv.pdf">CV</a> &nbsp;·&nbsp;
       <a href="resume.pdf">Resume (1&nbsp;p.)</a> &nbsp;·&nbsp;
       <a href="https://www.linkedin.com/in/younghee-son">LinkedIn</a> &nbsp;·&nbsp;
-      <a href="https://github.com/younghee-son">GitHub</a> &nbsp;·&nbsp;
+      <a href="https://github.com/younghee-son">GitHub</a>
     </p>
   </div>
 </header>
 
 <nav>
   <a href="#research">Research</a>
-  <a href="#code">Projects &amp; Code</a>
   <a href="#methods">Methods</a>
   <a href="#teaching">Teaching</a>
   <a href="cv.pdf">CV</a>
@@ -69,67 +71,66 @@
 
 <h2>About</h2>
 <p class="lede">
-
+  I am an applied microeconomist working in health and labor economics. My research
+  combines large administrative datasets with structural models to study how people
+  respond to the rules that allocate scarce medical resources &mdash; and how those
+  responses change what a policy actually achieves.
 </p>
 <p>
-  I am completing my PhD in Economics at Michigan State University in 2027 and will be on the
-  job market in 2026&ndash;2027.
+  I am completing my PhD in Economics at Michigan State University in 2027 and will be
+  on the job market in 2026&ndash;2027.
 </p>
 
 <h2 id="research">Research</h2>
 
 <div class="paper">
   <div class="title">Organ Availability and Transplant Candidate Behavior</div>
-  <div class="meta">Job Market Paper &nbsp;·&nbsp; Draft Forthcoming &nbsp;·&nbsp;
-    <a href="jmp.pdf">PDF</a> &nbsp;·&nbsp; <a href="jmp-slides.pdf">Slides</a></div>
+  <div class="meta">Job Market Paper &nbsp;·&nbsp; Draft available on request
+    (<a href="mailto:sonyoun7@msu.edu">email me</a>)</div>
   <p class="sowhat">
-    <em>Nearly 90% of donated livers are turned down the first time they're offered to a
-    patient. I show this isn't irrationality &mdash; patients are waiting for a better
+    Nearly 90% of donated livers are turned down the first time they are offered to a
+    patient. I show this is not irrationality &mdash; patients are waiting for a better
     match, and when a 2020 federal rule change improved their odds of getting another
     offer, they became 12.6% less likely to accept the one in front of them. Allocation
     rules work not only by deciding who gets offered an organ, but by changing how
-    people respond to the offer.</em>
+    people respond to the offer.
   </p>
   <details>
     <summary>Abstract</summary>
-    <p>This paper studies how liver transplant candidates adjust acceptance decisions in response to changes in access to transplantation. In 2020, the Acuity Circles policy restructured geographic allocation and introduced finer priority groupings. I use this reform as a natural experiment that shifts candidates' expected access. Using data from the Scientific Registry of Transplant Recipients, I construct a measure of access changes at the urgency-status-by-location level and link it to individual offer decisions.
- 
- The results indicate forward-looking behavior. A one-standard-deviation increase in expected access reduces the probability of accepting an offer by 4.7 percentage points, implying that candidates become more selective when future opportunities improve. Changes in access also reduce mortality in areas that gained access. The estimates imply roughly 26 fewer deaths per year among candidates listed in these areas after the reform, compared with approximately 1,200 deaths per year in the same areas before the reform, when 19\% of candidates died within a year of listing. 
-   
- To interpret these patterns, I estimate a dynamic discrete choice model of the accept-or-wait decision. Candidates trade off waiting for better offers against the risk of health deterioration or exit from the waitlist. Changes in access shift the acceptance threshold through their effect on future offer arrival rates and priority dynamics. I use the estimated model to evaluate the welfare effects of the reform and alternative allocation rules. The results suggest that allocation rules affect outcomes both by determining who receives offers and by shaping how candidates respond to them. This behavioral margin plays an important role in determining the effects of allocation policies.</p>
+    <p>This paper studies how liver transplant candidates adjust acceptance decisions in
+      response to changes in access to transplantation. In 2020, the Acuity Circles
+      policy restructured geographic allocation and introduced finer priority groupings.
+      I use this reform as a natural experiment that shifts candidates&rsquo; expected
+      access. Using data from the Scientific Registry of Transplant Recipients, I
+      construct a measure of access changes at the urgency-status-by-location level and
+      link it to individual offer decisions.</p>
+    <p>The results indicate forward-looking behavior. A one-standard-deviation increase
+      in expected access reduces the probability of accepting an offer by 4.7 percentage
+      points, implying that candidates become more selective when future opportunities
+      improve. Changes in access also reduce mortality in areas that gained access. The
+      estimates imply roughly 26 fewer deaths per year among candidates listed in these
+      areas after the reform, compared with approximately 1,200 deaths per year in the
+      same areas before the reform, when 19% of candidates died within a year of
+      listing.</p>
+    <p>To interpret these patterns, I estimate a dynamic discrete choice model of the
+      accept-or-wait decision. Candidates trade off waiting for better offers against
+      the risk of health deterioration or exit from the waitlist. Changes in access
+      shift the acceptance threshold through their effect on future offer arrival rates
+      and priority dynamics. I use the estimated model to evaluate the welfare effects
+      of the reform and alternative allocation rules. The results suggest that
+      allocation rules affect outcomes both by determining who receives offers and by
+      shaping how candidates respond to them. This behavioral margin plays an important
+      role in determining the effects of allocation policies.</p>
   </details>
-</div>
-
-<div class="paper">
-  <div class="title">Title of Working Paper</div>
-  <div class="meta">with Coauthor &nbsp;·&nbsp; <em>Revise and resubmit</em>, JOURNAL
-    &nbsp;·&nbsp; <a href="paper2.pdf">PDF</a></div>
-  <p class="sowhat"><em>One-sentence plain-language summary.</em></p>
-  <details>
-    <summary>Abstract</summary>
-    <p>Abstract text.</p>
-  </details>
-</div>
-
-<h2 id="code">Selected Projects &amp; Code</h2>
-<div class="paper">
-  <div class="title">Replication package &mdash; Job Market Paper</div>
-  <div class="meta"><a href="https://github.com/YOURNAME/jmp-replication">GitHub</a>
-    &nbsp;·&nbsp; Python, Stata</div>
-  <p class="sowhat">Cleans N million administrative records and reproduces every table
-    and figure in the paper from raw data with one command.</p>
-</div>
-<div class="paper">
-  <div class="title">Name of a Tool, Package, or Side Project</div>
-  <div class="meta"><a href="https://github.com/YOURNAME/PROJECT">GitHub</a>
-    &nbsp;·&nbsp; Python</div>
-  <p class="sowhat">What it does and who would use it, in one sentence.</p>
 </div>
 
 <h2 id="methods">Methods &amp; Tools</h2>
-<p class="skillrow"><b>Causal inference:</b> difference-in-differences, event studies </p>
-<p class="skillrow"><b>Data:</b> large administrative datasets,
-  panel data, survey design</p>
+<p class="skillrow"><b>Causal inference:</b> difference-in-differences, event studies,
+  natural experiments, policy evaluation</p>
+<p class="skillrow"><b>Structural modeling:</b> dynamic discrete choice, optimal
+  stopping, counterfactual policy simulation</p>
+<p class="skillrow"><b>Data:</b> large administrative datasets, panel data,
+  record linkage</p>
 <ul class="skills">
   <li>Python</li><li>R</li><li>Stata</li><li>MATLAB</li><li>Git</li><li>LaTeX</li>
 </ul>
@@ -141,14 +142,15 @@
 
 <h2>References</h2>
 <ul>
-  <li>Prof. Todd Elder, Michigan State University (chair) &mdash; telder@msu.edu</li>
-  <li>Prof. Stacy Dickert-Conlin, Michigan State University &mdash; dickertc@msu.edu</li>
-  <li>Prof. Hanzhe Zhang, Michigan State University &mdash; hanzhe@msu.edu</li>
+  <li>Prof. Todd Elder, Michigan State University (chair) &mdash;
+    <a href="mailto:telder@msu.edu">telder@msu.edu</a></li>
+  <li>Prof. Stacy Dickert-Conlin, Michigan State University &mdash;
+    <a href="mailto:dickertc@msu.edu">dickertc@msu.edu</a></li>
+  <li>Prof. Hanzhe Zhang, Michigan State University &mdash;
+    <a href="mailto:hanzhe@msu.edu">hanzhe@msu.edu</a></li>
 </ul>
 
-<footer>
-  Last updated: August 2026.
-</footer>
+<footer>Last updated: July 2026.</footer>
 
 </body>
 </html>
